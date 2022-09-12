@@ -1,0 +1,22 @@
+.root {
+	text-align: center;
+
+	span {
+		font-size: 64px;
+		@media (max-width: 768px) {
+			font-size: 20px;
+		}
+	}
+	h1 {
+		@media (max-width: 768px) {
+			font-size: 20px;
+		}
+	}
+}
+
+.description {
+	font-size: 22px;
+	@media (max-width: 768px) {
+		font-size: 14px;
+	}
+}
