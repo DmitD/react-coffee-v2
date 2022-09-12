@@ -13,7 +13,7 @@ export const EmptyCart: React.FC = () => {
 				Для того, чтобы заказать, перейдите на главную страницу
 			</p>
 			<div className='empty--image'></div>
-			<Link to='/' className='button button--black'>
+			<Link to='/react-coffee-v2' className='button button--black'>
 				<span>Вернуться назад</span>
 			</Link>
 		</div>

@@ -45,7 +45,7 @@ export const Header = () => {
 	return (
 		<div className='header'>
 			<div className='container'>
-				<Link to='/'>
+				<Link to='/react-coffee-v2'>
 					<div className='header__logo' onClick={toHomePage}>
 						<img width='60' height='60' src={logo} alt='Coffee logo' />
 						<div className='header__logo__title'>

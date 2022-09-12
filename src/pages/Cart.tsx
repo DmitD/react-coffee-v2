@@ -131,7 +131,7 @@ const Cart = () => {
 							</span>
 						</div>
 						<div className='cart__bottom-buttons'>
-							<Link to='/' className='button button--outline go-back-btn'>
+							<Link to='/react-coffee-v2' className='button button--outline go-back-btn'>
 								<svg
 									width='8'
 									height='14'
