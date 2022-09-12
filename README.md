@@ -1,7 +1,7 @@
 #### Online coffee shop - React Coffee
 
 This is a simple React application that uses the [mockApi](https://mockapi.io/docs) as a backend.
-Visit [react-coffee-v2.vercel.app](https://react-coffee-v2.vercel.app/) to see a live demo of React Coffee.
+Visit [dmitd.github.io/react-coffee-v2/](https://dmitd.github.io/react-coffee-v2/) to see a live demo of React Coffee.
 
 Stack:
 
