@@ -1,6 +1,7 @@
 {
 	"name": "react-coffee-v2",
 	"version": "0.1.0",
+	"homepage": "https://dmitd.github.io/react-coffee-v2",
 	"private": true,
 	"dependencies": {
 		"@reduxjs/toolkit": "^1.8.2",
@@ -29,7 +30,9 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -51,6 +54,10 @@
 	},
 	"devDependencies": {
 		"classnames": "^2.3.1",
-		"react-scripts": "5.0.1"
+		"file-loader": "^6.2.0",
+		"gh-pages": "^4.0.0",
+		"img-loader": "^4.0.0",
+		"react-scripts": "5.0.1",
+		"url-loader": "^4.1.1"
 	}
 }
